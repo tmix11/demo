@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="1975739e-7335-4b85-a592-bef0491152df" name="10.128.1.75" url="http://demo.test">
+        <fileTransfer rootFolder="/home/tmix/code/jeff" accessType="SFTP" host="10.128.1.75" port="22" sshConfigId="d42edd75-0ea4-42c7-9ddc-cc639cfb60d0" sshConfig="tmix@10.128.1.75:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
