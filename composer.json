@@ -1,0 +1,25 @@
+{
+    "name": "tmix/demo",
+    "authors": [
+        {
+            "name": "Tyler Mix"
+        }
+    ],
+    "require": {
+        "illuminate/collections": "^10.17"
+    },
+    "autoload": {
+        "psr-4": {
+            "Core\\": "Core/",
+            "Http\\": "Http/"
+        }
+    },
+    "require-dev": {
+        "pestphp/pest": "^2.11"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
